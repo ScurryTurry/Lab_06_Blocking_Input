@@ -15,9 +15,9 @@ public class CtoFConverter {
                 tempC = in.nextDouble();
                 in.nextLine();
                 tempF = (tempC * 1.8) + 32;
-                System.out.println(tempC + " degrees Celsius is " + tempF + " degrees Fahrenheit");
+                System.out.printf("%.2f degrees Celsius is the same as %.2f Fahrenheit", tempC, tempF);
 
-                System.out.print("Continue [Y/N] ");
+                System.out.print("\nContinue [Y/N] ");
                 continueYN = in.nextLine();
 
                 if (continueYN.equalsIgnoreCase("N")) {
